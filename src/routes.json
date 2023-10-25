@@ -1,0 +1,5 @@
+[
+  { "path": "/", "exact": true, "name": "Home" },
+  { "path": "/customers/create", "name": "Cliente / Criar", "element": "CreateCustomer", "item": "Cliente", "subItem": "Criar" },
+  { "path": "/customers/manage", "name": "Cliente / Gerenciar", "element": "ManageCustomer", "item": "Cliente", "subItem": "Gerenciar" }
+]

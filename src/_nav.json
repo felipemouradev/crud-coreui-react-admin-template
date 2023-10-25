@@ -1,0 +1,44 @@
+[
+  {
+    "component": "CNavItem",
+    "name": "Dashboard",
+    "to": "/dashboard",
+    "icon": "cilSpeedometer",
+    "badge": {
+      "color": "info",
+      "text": "NEW"
+    }
+  },
+  {
+    "component": "CNavTitle",
+    "name": "Cadastros"
+  },
+  {
+    "component": "CNavGroup",
+    "name": "Clientes",
+    "to": "/customers",
+    "icon": "cilUser",
+    "items": [
+      {
+        "component": "CNavItem",
+        "name": "Gerenciar",
+        "to": "/customers/manage"
+      },
+      {
+        "component": "CNavItem",
+        "name": "Criar",
+        "to": "/customers/create"
+      },
+      {
+        "component": "CNavItem",
+        "name": "Teste",
+        "to": "/customers/teste"
+      }
+    ]
+  },
+  {
+    "component": "CNavItem",
+    "name": "venda",
+    "to": "/venda/create"
+  }
+]

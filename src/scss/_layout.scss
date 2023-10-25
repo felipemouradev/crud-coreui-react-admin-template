@@ -1,0 +1,15 @@
+@import "@coreui/coreui/scss/_functions.scss";
+@import "@coreui/coreui/scss/mixins/_transition.scss";
+@import "@coreui/coreui/scss/mixins/_ltr-rtl.scss";
+@import "_variables.scss";
+
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+.wrapper {
+  width: 100%;
+  @include ltr-rtl("padding-left", var(--cui-sidebar-occupy-start, 0));
+  will-change: auto;
+  @include transition(padding .15s);
+}
